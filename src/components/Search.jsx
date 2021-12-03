@@ -1,6 +1,5 @@
 import Cat from "./Cat";
 import React,{useState} from "react";
-import SearchResult from "./SearchResult";
 const Search = () =>{
     let [kitties, setCats] = useState([])
 
