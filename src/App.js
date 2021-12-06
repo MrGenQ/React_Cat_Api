@@ -5,7 +5,7 @@ import Cats from "./components/Cats";
 import About from "./components/About";
 import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Search from "./components/Search";
+import SearchTab from "./components/SearchTab";
 
 const App = () =>{
         return(
@@ -16,7 +16,7 @@ const App = () =>{
                 <Routes>
                     <Route path="/" element={<Cats/>}/>
                     <Route path="/about" element={<About/>}/>  
-                    <Route path="/search" element={<Search/>}/>            
+                    <Route path="/search" element={<SearchTab/>}/>            
                 </Routes>
                     </Container>
                 </Router>
